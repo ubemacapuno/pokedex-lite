@@ -28,7 +28,7 @@ async function getFetch(){
     }catch (error){
         errorStyle()
         const choice = document.querySelector('input').value.toLowerCase().trim().replace(/^\s+/, "")
-        document.querySelector(".number").innerText = `Error 404 "${choice}" Not Found in Database! \nPlease review entry and submit again.`
+        document.querySelector(".name").innerText = `Error 404 "${choice}" Not Found in Database! Please review entry and submit again.`
         console.log(`Error caught in getFetch() Catch - ${error}`)
     }
 }
@@ -52,15 +52,15 @@ async function getRandom(){
         document.getElementById("card1").style.backgroundImage = `linear-gradient(45deg, var(--${poke_type.join('), var(--').toLowerCase()}` + `))`
     }catch (error){
         errorStyle()
-        document.querySelector(".number").innerText = `Error 404 Not Found! Oops! \n${error}`
+        document.querySelector(".name").innerText = `Error 404 Not Found! Oops! \n${error}`
         console.log(`Error caught in getRandom() Catch - ${error}`)
     }
 }
 
 function errorStyle(){
-    document.querySelector(".name").innerText = ``
-    document.querySelector(".pokephoto").src = ''
-    document.querySelector(".type1").innerText = ``
-    document.querySelector(".ability").innerText = ``
+    document.querySelector(".number").innerText = `Error`
+    document.querySelector(".pokephoto").src = `Error`
+    document.querySelector(".type1").innerText = `Error`
+    document.querySelector(".ability").innerText = `Error`
     document.getElementById("card1").style.background = `linear-gradient(45deg, var(--background-color), var(--heading-color))`
 }
