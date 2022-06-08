@@ -154,3 +154,28 @@ h4 {
 h5 {
 	font-size: 1.2rem;
 }
+
+/* Pseudo elements */
+.name::before, .number::before, .type1::before, .ability::before {
+  font-weight: bold;
+  color: var(--background-color);
+  text-shadow: 
+  1px 1px 3px var(--primary-color), 
+  1px 1px 3px var(--primary-color);
+}
+
+.name::before {
+  content: "Name: "
+}
+
+.number::before {
+  content: "Number: "
+}
+
+.type1::before {
+  content: "Type: "
+}
+
+.ability::before {
+  content: "Abilities: "
+}

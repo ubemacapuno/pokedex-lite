@@ -19,10 +19,10 @@ async function getFetch(){
         const abilities = data.abilities.map(ability =>` ${ability.ability.name}` )
         pokeImg.push(data.sprites.front_default)
         document.querySelector(".pokephoto").src = pokeImg[0]
-        document.querySelector(".name").innerText = `Name: ${data.name}`
-        document.querySelector(".number").innerText = `Number: ${data.id}`
-        document.querySelector(".type1").innerText = `Type: ${poke_type.join(' / ').toLowerCase()}`
-        document.querySelector(".ability").innerText = `Abilities: ${abilities}`
+        document.querySelector(".name").innerText = ` ${data.name}`
+        document.querySelector(".number").innerText = ` ${data.id}`
+        document.querySelector(".type1").innerText = ` ${poke_type.join(' / ').toLowerCase()}`
+        document.querySelector(".ability").innerText = ` ${abilities}`
         document.getElementById("card1").style.background = `var(--${poke_type.join('), var(--').toLowerCase()}` + `)`
         document.getElementById("card1").style.backgroundImage = `linear-gradient(45deg, var(--${poke_type.join('), var(--').toLowerCase()}` + `))`
     }catch (error){
@@ -44,10 +44,10 @@ async function getRandom(){
         const abilities = data.abilities.map(ability =>` ${ability.ability.name}` )
         pokeImg.push(data.sprites.front_default)
         document.querySelector(".pokephoto").src = pokeImg[0]
-        document.querySelector(".name").innerText = `Name: ${data.name}`
-        document.querySelector(".number").innerText = `Number: ${data.id}`
-        document.querySelector(".type1").innerText = `Type: ${poke_type.join(' / ').toLowerCase()}`
-        document.querySelector(".ability").innerText = `Abilities: ${abilities}`
+        document.querySelector(".name").innerText = ` ${data.name}`
+        document.querySelector(".number").innerText = ` ${data.id}`
+        document.querySelector(".type1").innerText = ` ${poke_type.join(' / ').toLowerCase()}`
+        document.querySelector(".ability").innerText = ` ${abilities}`
         document.getElementById("card1").style.background = `var(--${poke_type.join('), var(--').toLowerCase()}` + `)`
         document.getElementById("card1").style.backgroundImage = `linear-gradient(45deg, var(--${poke_type.join('), var(--').toLowerCase()}` + `))`
     }catch (error){
