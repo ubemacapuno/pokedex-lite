@@ -10,7 +10,7 @@ function toggleHidden(){
 
 async function getFetch(){
     try {
-        const choice = document.querySelector('input').value.toLowerCase() //choice is the pokemon that user inputs
+        const choice = document.querySelector('input').value.toLowerCase().trim().replace(/^\s+/, "")//choice is the pokemon that user inputs
         const url = `https://pokeapi.co/api/v2/pokemon/${choice}`
         const res = await fetch(url)
         const data = await res.json()
@@ -27,7 +27,7 @@ async function getFetch(){
         document.getElementById("card1").style.backgroundImage = `linear-gradient(45deg, var(--${poke_type.join('), var(--').toLowerCase()}` + `))`
     }catch (error){
         errorStyle()
-        const choice = document.querySelector('input').value
+        const choice = document.querySelector('input').value.toLowerCase().trim().replace(/^\s+/, "")
         document.querySelector(".number").innerText = `Error 404 Not Found! "${choice}" does not exist in the database. \nPlease review entry and submit again!`
         console.log(`Error caught in getFetch() Catch - ${error}`)
     }
