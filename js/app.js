@@ -1,4 +1,3 @@
-//Async Await Practice
 document.querySelector('button').addEventListener('click', getFetch)
 document.querySelector('button').addEventListener('click', toggleHidden)
 
@@ -37,6 +36,5 @@ async function getFetch(){
         document.querySelector(".type1").innerText = ``
         document.querySelector(".ability").innerText = ``
         console.log(`Error caught in Catch - ${error}`)
-    
     }
 }
