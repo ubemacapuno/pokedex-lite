@@ -92,7 +92,7 @@ body{
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  background-color: var(--heading-color);
+  background-color: var(--primary-color);
   border-radius: 10px;
   border: 3px solid var(--border-color);
   padding: 5px 10px;
