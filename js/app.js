@@ -28,7 +28,7 @@ async function getFetch(){
     }catch (error){
         errorStyle()
         const choice = document.querySelector('input').value.toLowerCase().trim().replace(/^\s+/, "")
-        document.querySelector(".number").innerText = `Error 404 Not Found! "${choice}" does not exist in the database. \nPlease review entry and submit again!`
+        document.querySelector(".number").innerText = `Error 404 "${choice}" Not Found in Database! \nPlease review entry and submit again.`
         console.log(`Error caught in getFetch() Catch - ${error}`)
     }
 }
