@@ -68,6 +68,9 @@ button {
 }
 
 body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: var(--primary-color);
   color: white;
 }
@@ -122,6 +125,7 @@ h6 {
 }
 
 p {
+  color: white;
 	font-weight: 400;
 	line-height: 1.5;
 }
@@ -153,6 +157,14 @@ h4 {
 
 h5 {
 	font-size: 1.2rem;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Pseudo elements */
