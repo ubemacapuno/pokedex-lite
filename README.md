@@ -4,14 +4,17 @@ This simple project was made to teach myself async/await, try/catch with the Pok
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, API by PokéAPI.co.
+**Tech used:** HTML, CSS, JavaScript, API by PokéAPI.co. 
+You can also view a demo version <a target="_blank" href="https://codepen.io/corey-damocles/pen/rNJZQXB">here on codepen.io</a>.
 
-## Optimizations
+ <tr>
+    <td width="33.3%"  style="align:center;" valign="top">
+            <img src="https://github.com/ubemacapuno/images-for-github-readme/blob/main/pokedex-lite.gif?raw=true" width="100%"  alt="codewars repo gif."/>
+    </td>
+  </tr>
 
-This project is still a work in progress. In the future, I will optimize and clean-up the JavaScript. The 'try' in the async functions look very heavy, and I will figure out how to address that as I learn more. <br />
-Also I will need to incorporate a set timeout so the card updates all at the same time. <br />
-In the future, I'd like to use either Svelte or React and get more practice in with those libraries.
+## Optimizations:
+In the future, I'd like to use either Svelte or React and get more practice in with those libraries. Also figure out a way to have everything display once everything has loaded; currently, it seems like the image rendering lags behind when the text renders.
 
 ## Lessons Learned:
-
-Still learning! Project is still in progress, I will update this section at a later time!
+I have used callbacks in the past when incorporating API calls; after building this application, I learned that using promises is just as effective and looks cleaner than callbacks (ex: the infamous "Callback Hell" pyramid). This project is still in progress, I will plan to update this section again after I've made changes.
