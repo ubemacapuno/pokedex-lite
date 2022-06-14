@@ -1,11 +1,11 @@
 ## PokéDex Lite: <a target="_blank" href="https://pokedexlookup.netlify.app">Visit Demo Here (Work In Progress!)</a> 
 
-This simple project was made to teach myself async/await, try/catch with the Pokémon API by <a target="_blank" href="https://pokeapi.co/">PokéAPI.co</a>.
+This simple project was made to teach myself how to use promises, async/await, and try/catch with the Pokémon API by <a target="_blank" href="https://pokeapi.co/">PokéAPI.co</a>.
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, API by PokéAPI.co. 
-You can also view a demo version <a target="_blank" href="https://codepen.io/corey-damocles/pen/rNJZQXB">here on codepen.io</a>.
+You can also view an interactive demo version <a target="_blank" href="https://codepen.io/corey-damocles/pen/rNJZQXB">here on my codepen.io</a>!
 
  <tr>
     <td width="33.3%"  style="align:center;" valign="top">
