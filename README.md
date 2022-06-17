@@ -1,4 +1,4 @@
-## PokéDex Lite: <a target="_blank" href="https://pokedexlookup.netlify.app">Visit Demo Here (Work In Progress!)</a> 
+## PokéDex Lite: <a target="_blank" href="https://pokedexlookup.netlify.app">Visit Demo Here</a> 
 
 This simple project was made to teach myself how to use <strong>promises, async/await, and try/catch</strong> with the Pokémon API by <a target="_blank" href="https://pokeapi.co/">PokéAPI.co</a>.
 
