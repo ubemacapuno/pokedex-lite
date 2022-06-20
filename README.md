@@ -8,7 +8,7 @@ This simple project was made to teach myself how to use <strong>promises, async/
 You can also view an interactive demo version hosted on Netlify <a target="_blank" href="https://pokedexlookup.netlify.app">here.</a>
 
  <tr>
-    <td width="33.3%"  style="align:center;" valign="top">
+    <td width="100%"  style="align:center;" valign="top">
             <img src="https://github.com/ubemacapuno/images-for-github-readme/blob/main/pokedex-lite.gif?raw=true" width="100%"  alt="codewars repo gif."/>
     </td>
   </tr>
