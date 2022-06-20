@@ -5,7 +5,7 @@ This simple project was made to teach myself how to use <strong>promises, async/
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, API by PokéAPI.co. 
-You can also view an interactive demo version hosted on Netlify <a target="_blank" href="https://codepen.io/corey-damocles/pen/rNJZQXB">here.</a>
+You can also view an interactive demo version hosted on Netlify <a target="_blank" href="https://pokedexlookup.netlify.app">here.</a>
 
  <tr>
     <td width="33.3%"  style="align:center;" valign="top">
