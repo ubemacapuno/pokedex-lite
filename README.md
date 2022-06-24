@@ -1,4 +1,4 @@
-## PokéDex Lite: <a target="_blank" href="https://codepen.io/corey-damocles/pen/rNJZQXB">Visit My codepen.io Demo Here</a>!
+## PokéDex Lite: <a target="_blank" href="https://codepen.io/corey-damocles/pen/rNJZQXB">Interactive codepen.io Demo Here</a>!
 
 This simple project was made to teach myself how to use <strong>promises, async/await, and try/catch</strong> with the Pokémon API by <a target="_blank" href="https://pokeapi.co/">PokéAPI.co</a>.
 
