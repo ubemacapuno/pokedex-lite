@@ -65,6 +65,7 @@ button {
   background-color: var(--border-color);
   color: var(--background-color);
   border-radius: 5px;
+  cursor: pointer;
 }
 
 body{
@@ -90,7 +91,7 @@ body{
 
 .card1 {
   margin-top: 25px;
-  min-width: 320px;
+  width: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
